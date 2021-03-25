@@ -1,0 +1,142 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0"><meta name="theme-color" content="#0078E7"><meta name="author" content="罗开米其朗"><meta name="copyright" content="罗开米其朗"><meta name="generator" content="Hexo 5.4.0"><meta name="theme" content="hexo-theme-yun"><title>关于新生测试培训的一点总结（9） | Hexo</title><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@900&amp;display=swap" media="print" onload="this.media='all'"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/star-markdown-css@0.1.24/dist/yun/yun-markdown.min.css"><script src="//at.alicdn.com/t/font_1140697_ed8vp4atwoj.js" async></script><script src="https://cdn.jsdelivr.net/npm/scrollreveal/dist/scrollreveal.min.js" defer></script><script>document.addEventListener("DOMContentLoaded", () => {
+  [".post-card",".post-content img"].forEach((target)=> {
+    ScrollReveal().reveal(target);
+  })
+});
+</script><link id="light-prism-css" rel="stylesheet" href="https://cdn.jsdelivr.net/npm/prismjs@latest/themes/prism.css" media="(prefers-color-scheme: light)"><link id="dark-prism-css" rel="stylesheet" href="https://cdn.jsdelivr.net/npm/prismjs@latest/themes/prism-tomorrow.css" media="(prefers-color-scheme: dark)"><link rel="shortcut icon" type="image/svg+xml" href="/favicon.ico"><link rel="mask-icon" href="/favicon.ico" color="#0078E7"><link rel="alternate icon" href="/yun.ico"><link rel="preload" href="/css/hexo-theme-yun.css" as="style"><link rel="preload" href="/js/utils.js" as="script"><link rel="preload" href="/js/hexo-theme-yun.js" as="script"><link rel="prefetch" href="/js/sidebar.js" as="script"><link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin><script id="yun-config">
+    const Yun = window.Yun || {};
+    window.CONFIG = {"hostname":"redomichelan.github.io.git","root":"/","title":"东风夜放花千树","version":"1.5.1","mode":"auto","copycode":true,"page":{"isPost":true},"anonymous_image":"https://cdn.jsdelivr.net/gh/YunYouJun/cdn/img/avatar/none.jpg","say":{"api":"https://v1.hitokoto.cn","hitokoto":true},"fireworks":{"colors":["102, 167, 221","62, 131, 225","33, 78, 194"]}};
+  </script><link rel="stylesheet" href="/css/hexo-theme-yun.css"><script src="/js/utils.js"></script><script src="/js/hexo-theme-yun.js"></script><meta name="description" content="本系列是博主在OUC进修前做新生测试培训的一些心得、思路和学习体会。希望能在新的人生阶段更加努力地进步，获得自己的成长与成就。">
+<meta property="og:type" content="article">
+<meta property="og:title" content="关于新生测试培训的一点总结（9）">
+<meta property="og:url" content="https://redomichelan.github.io.git/2020/03/20/learningdairy-9/index.html">
+<meta property="og:site_name" content="Hexo">
+<meta property="og:description" content="本系列是博主在OUC进修前做新生测试培训的一些心得、思路和学习体会。希望能在新的人生阶段更加努力地进步，获得自己的成长与成就。">
+<meta property="og:locale" content="en_US">
+<meta property="article:published_time" content="2020-03-19T16:00:00.000Z">
+<meta property="article:modified_time" content="2020-03-20T15:10:29.224Z">
+<meta property="article:author" content="罗开米其朗">
+<meta property="article:tag" content="新生测培">
+<meta property="article:tag" content="二进制拆弹">
+<meta name="twitter:card" content="summary"><script src="/js/ui/mode.js"></script></head><body><script defer src="https://cdn.jsdelivr.net/npm/animejs@latest"></script><script defer src="/js/ui/fireworks.js"></script><canvas class="fireworks"></canvas><div class="container"><a class="sidebar-toggle hty-icon-button" id="menu-btn"><div class="hamburger hamburger--spin" type="button"><span class="hamburger-box"><span class="hamburger-inner"></span></span></div></a><div class="sidebar-toggle sidebar-overlay"></div><aside class="sidebar"><script src="/js/sidebar.js"></script><ul class="sidebar-nav"><li class="sidebar-nav-item sidebar-nav-toc hty-icon-button sidebar-nav-active" data-target="post-toc-wrap" title="Table of Contents"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-list-ordered"></use></svg></li><li class="sidebar-nav-item sidebar-nav-overview hty-icon-button" data-target="site-overview-wrap" title="Overview"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-passport-line"></use></svg></li></ul><div class="sidebar-panel" id="site-overview-wrap"><div class="site-info mickey-mouse"><a class="site-author-avatar" href="/about/" title="罗开米其朗"><img width="96" loading="lazy" src="/images/tamako.jpg" alt="罗开米其朗"></a><div class="site-author-name"><a href="/about/">罗开米其朗</a></div><a class="site-name" href="/about/site.html">Hexo</a><sub class="site-subtitle"></sub><div class="site-desciption"></div></div><nav class="site-state"><a class="site-state-item hty-icon-button icon-home" href="/" title="Home"><span class="site-state-item-icon"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-home-4-line"></use></svg></span></a><div class="site-state-item"><a href="/archives/" title="Archives"><span class="site-state-item-icon"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-archive-line"></use></svg></span><span class="site-state-item-count">10</span></a></div><div class="site-state-item"><a href="/categories/" title="Categories"><span class="site-state-item-icon"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-folder-2-line"></use></svg></span><span class="site-state-item-count">1</span></a></div><div class="site-state-item"><a href="/tags/" title="Tags"><span class="site-state-item-icon"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-price-tag-3-line"></use></svg></span><span class="site-state-item-count">6</span></a></div><a class="site-state-item hty-icon-button" href="/about/#comment" title="留言板"><span class="site-state-item-icon"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-clipboard-line"></use></svg></span></a></nav><hr style="margin-bottom:0.5rem"><div class="links-of-author"><a class="links-of-author-item hty-icon-button" rel="noopener" href="https://github.com/Redomichelan" title="GitHub" target="_blank" style="color:#6e5494"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-github-line"></use></svg></a><a class="links-of-author-item hty-icon-button" rel="noopener" href="mailto:Redomichelan@163.com" title="E-Mail" target="_blank" style="color:#1da1f2"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-mail-line"></use></svg></a><a class="links-of-author-item hty-icon-button" rel="noopener" href="https://music.163.com/#/user/home?id=347003451" title="网易云音乐" target="_blank" style="color:#C10D0C"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-netease-cloud-music-line"></use></svg></a><a class="links-of-author-item hty-icon-button" rel="noopener" href="https://space.bilibili.com/57248848" title="哔哩哔哩动画" target="_blank" style="color:#FF8EB3"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-bilibili-line"></use></svg></a><a class="links-of-author-item hty-icon-button" rel="noopener" href="https://cdn.jsdelivr.net/gh/YunYouJun/cdn/img/about/white-qrcode-and-search.jpg" title="微信公众号" target="_blank" style="color:#1AAD19"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-wechat-2-line"></use></svg></a><a class="links-of-author-item hty-icon-button" rel="noopener" href="https://travellings.now.sh/" title="Travelling" target="_blank" style="color:var(--hty-text-color)"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-send-plane-2-line"></use></svg></a></div><hr style="margin:0.5rem 1rem"><div class="links"><a class="links-item hty-icon-button" href="/links/" title="我的小伙伴们" style="color:dodgerblue"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-genderless-line"></use></svg></a><a class="links-item hty-icon-button" href="/girls/" title="喜欢的女孩子" style="color:hotpink"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-women-line"></use></svg></a></div><br><a class="links-item hty-icon-button" id="toggle-mode-btn" href="javascript:;" title="Mode" style="color: #f1cb64"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-contrast-2-line"></use></svg></a></div><div class="sidebar-panel sidebar-panel-active" id="post-toc-wrap"><div class="post-toc"><div class="post-toc-content"><ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E9%A2%98%E7%9B%AE"><span class="toc-number">1.</span> <span class="toc-text">题目</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E9%A2%98%E7%9B%AE%E5%88%86%E6%9E%90"><span class="toc-number">2.</span> <span class="toc-text">题目分析</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#phase-1"><span class="toc-number">2.1.</span> <span class="toc-text">phase_1</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#%E8%A7%A3%E9%A2%98%E8%BF%87%E7%A8%8B"><span class="toc-number">2.1.1.</span> <span class="toc-text">解题过程</span></a></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#phase-2"><span class="toc-number">2.2.</span> <span class="toc-text">phase_2</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#%E8%A7%A3%E9%A2%98%E8%BF%87%E7%A8%8B-1"><span class="toc-number">2.2.1.</span> <span class="toc-text">解题过程</span></a></li></ol></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%AD%A6%E4%B9%A0%E5%BF%83%E5%BE%97"><span class="toc-number">3.</span> <span class="toc-text">学习心得</span></a></li></ol></div></div></div></aside><main class="sidebar-translate" id="content"><div id="post"><article class="hty-card post-block" itemscope itemtype="https://schema.org/Article"><link itemprop="mainEntityOfPage" href="https://Redomichelan.github.io.git/2020/03/20/learningdairy-9/"><span hidden itemprop="author" itemscope itemtype="https://schema.org/Person"><meta itemprop="name" content="罗开米其朗"><meta itemprop="description"></span><span hidden itemprop="publisher" itemscope itemtype="https://schema.org/Organization"><meta itemprop="name" content="Hexo"></span><header class="post-header"><h1 class="post-title" itemprop="name headline">关于新生测试培训的一点总结（9）</h1><div class="post-meta"><div class="post-time" style="display:inline-block"><span class="post-meta-item-icon"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-calendar-line"></use></svg></span> <time title="Created: 2020-03-20 00:00:00" itemprop="dateCreated datePublished" datetime="2020-03-20T00:00:00+08:00">2020-03-20</time></div><div class="post-classify"><span class="post-category"> <span class="post-meta-item-icon" style="margin-right:3px;"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-folder-line"></use></svg></span><span itemprop="about" itemscope itemtype="https://schema.org/Thing"><a class="category" href="/categories/%E6%96%B0%E7%94%9F%E6%B5%8B%E5%9F%B9/" style="--text-color:var(--hty-text-color)" itemprop="url" rel="index"><span itemprop="text">新生测培</span></a></span></span><span class="post-tag"><span class="post-meta-divider">-</span><a class="tag" href="/tags/%E6%96%B0%E7%94%9F%E6%B5%8B%E5%9F%B9/" style="--text-color:var(--hty-text-color)"><span class="post-meta-item-icon"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-price-tag-3-line"></use></svg></span><span class="tag-name">新生测培</span></a><a class="tag" href="/tags/%E4%BA%8C%E8%BF%9B%E5%88%B6%E6%8B%86%E5%BC%B9/" style="--text-color:var(--hty-text-color)"><span class="post-meta-item-icon"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-price-tag-3-line"></use></svg></span><span class="tag-name">二进制拆弹</span></a></span></div><div class="post-author"><span class="author-name">Redomichelan</span></div></div></header><section class="post-body" itemprop="articleBody"><div class="post-content markdown-body" style="--smc-primary:#0078E7;"><p>本系列是博主在OUC进修前做新生测试培训的一些心得、思路和学习体会。希望能在新的人生阶段更加努力地进步，获得自己的成长与成就。</p>
+<span id="more"></span>
+<h2 id="题目"><a href="#题目" class="headerlink" title="题目"></a>题目</h2><p>题目是一个linux可执行文件，一共六个步骤需要特定的输入，否则将会爆炸。</p>
+<h2 id="题目分析"><a href="#题目分析" class="headerlink" title="题目分析"></a>题目分析</h2><p>将其拖入IDA32位反汇编，查看主函数伪代码如下。</p>
+<pre class="language-none"><code class="language-none">int __cdecl main(int argc, const char **argv, const char **envp)
+&#123;
+  const char *v3; &#x2F;&#x2F; eax
+  const char *v4; &#x2F;&#x2F; eax
+  const char *v5; &#x2F;&#x2F; eax
+  const char *v6; &#x2F;&#x2F; eax
+  const char *v7; &#x2F;&#x2F; eax
+  const char *v8; &#x2F;&#x2F; eax
+
+  if ( argc &#x3D;&#x3D; 1 )
+  &#123;
+    infile &#x3D; (FILE *)stdin;
+  &#125;
+  else
+  &#123;
+    if ( argc !&#x3D; 2 )
+    &#123;
+      __printf_chk(1, &quot;Usage: %s [&lt;input_file&gt;]\n&quot;, *argv);
+      exit(8);
+    &#125;
+    infile &#x3D; fopen(argv[1], &quot;r&quot;);
+    if ( !infile )
+    &#123;
+      __printf_chk(1, &quot;%s: Error: Couldn&#39;t open %s\n&quot;, *argv, argv[1]);
+      exit(8);
+    &#125;
+  &#125;
+  initialize_bomb();
+  puts(&quot;Welcome to my fiendish little bomb. You have 6 phases with&quot;);
+  puts(&quot;which to blow yourself up. Have a nice day!&quot;);
+  v3 &#x3D; read_line();
+  phase_1((int)v3);
+  phase_defused();
+  puts(&quot;Phase 1 defused. How about the next one?&quot;);
+  v4 &#x3D; read_line();
+  phase_2((int)v4);
+  phase_defused();
+  puts(&quot;That&#39;s number 2.  Keep going!&quot;);
+  v5 &#x3D; read_line();
+  phase_3(v5);
+  phase_defused();
+  puts(&quot;Halfway there!&quot;);
+  v6 &#x3D; read_line();
+  phase_4(v6);
+  phase_defused();
+  puts(&quot;So you got that one.  Try this one.&quot;);
+  v7 &#x3D; read_line();
+  phase_5(v7);
+  phase_defused();
+  puts(&quot;Good work!  On to the next...&quot;);
+  v8 &#x3D; read_line();
+  phase_6(v8);
+  phase_defused();
+  return 0;
+&#125;</code></pre>
+<p>这部分和题目给出的主函数c语言文件差不多，在这里可以直观地看到这道题有6个阶段，如果需要解题的话，结合函数伪代码以及汇编语言分析代码即可。</p>
+<h3 id="phase-1"><a href="#phase-1" class="headerlink" title="phase_1"></a>phase_1</h3><h4 id="解题过程"><a href="#解题过程" class="headerlink" title="解题过程"></a>解题过程</h4><p>查看阶段一伪代码</p>
+<pre class="language-none"><code class="language-none">int __cdecl phase_1(int a1)
+&#123;
+  int result; &#x2F;&#x2F; eax
+
+  result &#x3D; strings_not_equal(a1, &quot;You can Russia from land here in Alaska.&quot;);
+  if ( result )
+    explode_bomb();
+  return result;
+&#125;</code></pre>
+<p>很容易分析出来，这个函数的目的是比较判断。如果输入字符串与预设一致，则不会爆炸。<br>键入”You can Russia from land here in Alaska.”<br>过关</p>
+<h3 id="phase-2"><a href="#phase-2" class="headerlink" title="phase_2"></a>phase_2</h3><h4 id="解题过程-1"><a href="#解题过程-1" class="headerlink" title="解题过程"></a>解题过程</h4><p>查看阶段二伪代码</p>
+<pre class="language-none"><code class="language-none">int __cdecl phase_2(int a1)
+&#123;
+  int result; &#x2F;&#x2F; eax
+  char *v2; &#x2F;&#x2F; ebx
+  int v3; &#x2F;&#x2F; [esp+18h] [ebp-24h]
+  char v4; &#x2F;&#x2F; [esp+1Ch] [ebp-20h]
+  char v5; &#x2F;&#x2F; [esp+30h] [ebp-Ch]
+
+  read_six_numbers(a1, (int)&amp;v3);
+  if ( v3 !&#x3D; 1 )
+    explode_bomb();
+  v2 &#x3D; &amp;v4;
+  do
+  &#123;
+    result &#x3D; 2 * *((_DWORD *)v2 - 1);
+    if ( *(_DWORD *)v2 !&#x3D; result )
+      explode_bomb();
+    v2 +&#x3D; 4;
+  &#125;
+  while ( v2 !&#x3D; &amp;v5 );
+  return result;
+&#125;</code></pre>
+<p>通过查看参数地址，<br>v3地址为-00000024<br>v4地址为-00000020<br>v5地址为-0000000C<br>查看read_six_numbers函数伪代码</p>
+<pre class="language-none"><code class="language-none">int __cdecl read_six_numbers(int a1, int a2)
+&#123;
+  int result; &#x2F;&#x2F; eax
+
+  result &#x3D; __isoc99_sscanf(a1, (const char *)&amp;unk_804A2FB, a2, a2 + 4, a2 + 8, a2 + 12, a2 + 16, a2 + 20);
+  if ( result &lt;&#x3D; 5 )
+    explode_bomb();
+  return result;
+&#125;</code></pre>
+<p>结合之前二阶段主函数的伪代码发现，read_six_numbers目的是将输入的数字存入以v3地址起的连续6个字节内，并判断数字数是否小于等于5，是则爆炸。<br>循环外有两个步骤，一是判断v3是否为1，我们可以得到的信息是键入的第一个数字为1。二是将v4的地址赋予v2。<br>循环中需要执行三条语句，分析得。<br>result的计算值为将v2地址向后移动一个单位的数据翻倍。<br>v2值等于result。<br>v2地址加4（一个字节）。<br>以v2初始值为例，v2需要等于v2的上一个单位的数值即v3的翻倍，这时v2的值等同于v4的值，即得到v4的值。之后v2地址加4，如此循环。<br>结果是v2的值每次都是上一个单位的值两倍。<br>故而正确输入是<br>1 2 4 8 16 32</p>
+<h2 id="学习心得"><a href="#学习心得" class="headerlink" title="学习心得"></a>学习心得</h2><p>没有使用推荐的工具，主要是我汇编能力不是很好，目前还处在一边百度一边学习的层次。而且IDA用着也比较顺手，但是在我能力提升之后我还是会好好使用别的工具的，比如二阶段那个while循环与我的判断产生了矛盾，但是我并不知道矛盾从何而来。简单的工具一定是有局限性的，这也激励着我们不断像知识的深处摸索。</p>
+</div><ul class="post-copyright"><li class="post-copyright-author"><strong>Post author: </strong>Redomichelan</li><li class="post-copyright-link"><strong>Post link: </strong><a href="https://redomichelan.github.io.git/2020/03/20/learningdairy-9/" title="关于新生测试培训的一点总结（9）">https://redomichelan.github.io.git/2020/03/20/learningdairy-9/</a></li><li class="post-copyright-license"><strong>Copyright Notice: </strong>All articles in this blog are licensed under <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh" target="_blank" rel="noopener" title="CC BY-NC-SA 4.0 "><svg class="icon"><use xlink:href="#icon-creative-commons-line"></use></svg><svg class="icon"><use xlink:href="#icon-creative-commons-by-line"></use></svg><svg class="icon"><use xlink:href="#icon-creative-commons-nc-line"></use></svg><svg class="icon"><use xlink:href="#icon-creative-commons-sa-line"></use></svg></a> unless otherwise stated.</li></ul></section></article><div class="post-nav"><div class="post-nav-item"><a class="post-nav-prev" href="/2020/03/23/learningdairy-10/" rel="prev" title="关于新生测试培训的一点总结（10）"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-arrow-left-s-line"></use></svg><span class="post-nav-text">关于新生测试培训的一点总结（10）</span></a></div><div class="post-nav-item"><a class="post-nav-next" href="/2020/03/18/learningdairy-8/" rel="next" title="关于新生测试培训的一点总结（8）"><span class="post-nav-text">关于新生测试培训的一点总结（8）</span><svg class="icon" aria-hidden="true"><use xlink:href="#icon-arrow-right-s-line"></use></svg></a></div></div></div><div class="hty-card" id="comment"><div class="comment-tooltip text-center"><span>点击按钮跳转 GitHub Issues 评论。</span><br><span>若没有本文 Issue，您可以使用 Comment 模版新建。</span><br></div></div></main><footer class="sidebar-translate" id="footer"><div class="copyright"><span>&copy; 2020 – 2021 </span><span class="with-love" id="animate"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-cloud-line"></use></svg></span><span class="author"> 罗开米其朗</span></div><div class="powered"><span>Powered by <a href="https://hexo.io" target="_blank" rel="noopener">Hexo</a> v5.4.0</span><span class="footer-separator">|</span><span>Theme - <a rel="noopener" href="https://github.com/YunYouJun/hexo-theme-yun" target="_blank"><span>Yun</span></a> v1.5.1</span></div><div class="live_time"><span>韬光养晦、卧薪尝胆、深藏不漏、引而不发</span><span id="display_live_time"></span><span class="moe-text">(｀⌒´メ)</span><script>function blog_live_time() {
+  setTimeout(blog_live_time, 1000);
+  const start = new Date('2020-08-26T00:00:00');
+  const now = new Date();
+  const timeDiff = (now.getTime() - start.getTime());
+  const msPerMinute = 60 * 1000;
+  const msPerHour = 60 * msPerMinute;
+  const msPerDay = 24 * msPerHour;
+  const passDay = Math.floor(timeDiff / msPerDay);
+  const passHour = Math.floor((timeDiff % msPerDay) / 60 / 60 / 1000);
+  const passMinute = Math.floor((timeDiff % msPerHour) / 60 / 1000);
+  const passSecond = Math.floor((timeDiff % msPerMinute) / 1000);
+  display_live_time.innerHTML = " " + passDay + " 天 " + passHour + " 小时 " + passMinute + " 分 " + passSecond + " 秒";
+}
+blog_live_time();
+</script></div></footer><a class="hty-icon-button" id="goUp" aria-label="back-to-top" href="#"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-arrow-up-s-line"></use></svg><svg class="progress-circle-container" viewBox="0 0 100 100"><circle class="progress-circle" id="progressCircle" cx="50" cy="50" r="48" fill="none" stroke="#0078E7" stroke-width="2" stroke-linecap="round"></circle></svg></a></div></body></html>
